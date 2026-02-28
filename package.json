@@ -1,0 +1,26 @@
+{
+  "name": "cc-ghost-log",
+  "version": "1.0.0",
+  "description": "See what your AI did while you were gone. Shows git commits from Ghost Days — days AI ran Claude Code autonomously while you were offline.",
+  "type": "module",
+  "bin": {
+    "cc-ghost-log": "cli.mjs"
+  },
+  "scripts": {
+    "start": "node cli.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "ai",
+    "autonomous",
+    "git",
+    "cli",
+    "ghost-days",
+    "subagents"
+  ],
+  "author": "yurukusa",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
