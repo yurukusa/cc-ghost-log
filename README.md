@@ -45,10 +45,27 @@ Your autonomous setup kept working while you were completely offline.
 ## Options
 
 ```bash
-npx cc-ghost-log              # Show last 10 Ghost Days
-npx cc-ghost-log --days=20    # Show last 20 Ghost Days
-npx cc-ghost-log --json       # JSON output (for scripting)
+npx cc-ghost-log                       # Show last 10 Ghost Days
+npx cc-ghost-log --days=20             # Show last 20 Ghost Days
+npx cc-ghost-log --json                # JSON output (for scripting)
+
+npx cc-ghost-log --yesterday           # Show yesterday's Ghost Day
+npx cc-ghost-log --yesterday --summary # Markdown report of yesterday
+npx cc-ghost-log --yesterday --tweet   # Tweet-ready text (280 chars)
+npx cc-ghost-log --check-yesterday     # exit 0 = Ghost Day, exit 1 = not
 ```
+
+## Automate your daily AI activity report
+
+Set up a cron job that writes a Markdown report every morning Ghost Days occur:
+
+```bash
+node node_modules/cc-ghost-log/setup-cron.mjs
+# or after npx install:
+npx cc-ghost-log --check-yesterday && npx cc-ghost-log --yesterday --summary
+```
+
+Reports are saved to `~/ops/ghost-reports/YYYY-MM-DD.md`.
 
 ## How it works
 
