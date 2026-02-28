@@ -2,6 +2,8 @@
 
 See what your AI did while you were gone.
 
+**Try it in your browser:** [yurukusa.github.io/cc-ghost-log](https://yurukusa.github.io/cc-ghost-log/)
+
 ```
 npx cc-ghost-log
 ```
@@ -66,6 +68,8 @@ npx cc-ghost-log --json       # JSON output (for scripting)
 | [cc-agent-load](https://yurukusa.github.io/cc-agent-load/) | You vs AI time split + Activity Calendar |
 | [cc-session-stats](https://yurukusa.github.io/cc-session-stats/) | Total usage stats |
 | [cc-personality](https://yurukusa.github.io/cc-personality/) | Your developer archetype |
+
+All tools: [cc-toolkit](https://yurukusa.github.io/cc-toolkit/)
 
 ## License
 
