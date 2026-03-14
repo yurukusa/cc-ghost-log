@@ -384,3 +384,7 @@ for (const day of results) {
 
 console.log(`  ${C.dim}── npx cc-ghost-log · #ClaudeCode #AIAutonomy ──${C.reset}`);
 console.log();
+console.log(`  ${C.dim}Running Claude Code autonomously? Check your safety score:${C.reset}`);
+console.log(`  ${C.dim}npx cc-health-check${C.reset}`);
+console.log(`  ${C.dim}Full production kit: https://yurukusa.gumroad.com/l/pkbbl?utm_source=npm&utm_medium=cli&utm_campaign=ops-kit${C.reset}`);
+console.log();
