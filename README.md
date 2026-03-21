@@ -88,6 +88,10 @@ Reports are saved to `~/ops/ghost-reports/YYYY-MM-DD.md`.
 
 All tools: [cc-toolkit](https://yurukusa.github.io/cc-toolkit/)
 
+### Keep your Ghost Days safe
+
+**[Claude Code Ops Kit](https://yurukusa.github.io/cc-ops-kit-landing/?utm_source=github&utm_medium=readme&utm_campaign=cc-ghost-log)** ($19) — 10 production hooks that protect autonomous sessions. Context monitoring, error gates, backup branches — built from 160+ hours of unattended operation.
+
 ## License
 
 MIT

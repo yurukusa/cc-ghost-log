@@ -1,6 +1,6 @@
 {
   "name": "cc-ghost-log",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "See what your AI did while you were gone. Shows git commits from Ghost Days — days AI ran Claude Code autonomously while you were offline.",
   "type": "module",
   "bin": {
